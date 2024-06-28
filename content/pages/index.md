@@ -203,7 +203,8 @@ sections:
       <div style="text-align: center;">
         ## Talk To Us ?
         <br />
-        ## 085 800 2424
+        ## 
+        ## <a href="tel:+310858002424" style="text-decoration: underline;">085 800 2424</a>
       </div>
 
   # - type: ContactSection
