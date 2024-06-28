@@ -1,14 +1,14 @@
 ---
 type: ProjectFeedLayout
-title: Projects
+title: Services
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: /images/my-gradien.jpeg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 50
+  opacity: 100
 projectFeed:
   type: ProjectFeedSection
   colors: colors-f
@@ -16,7 +16,7 @@ projectFeed:
   showDescription: true
   showReadMoreLink: true
   showFeaturedImage: true
-  variant: variant-a
+  variant: variant-b
   styles:
     self:
       width: narrow
@@ -31,7 +31,7 @@ styles:
 bottomSections:
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "Reach Out To Us... \U0001F4AC"
     colors: colors-f
     form:
       type: FormBlock
@@ -56,17 +56,24 @@ bottomSections:
           hideLabel: true
           placeholder: Email
           isRequired: true
-          width: full
+          width: 1/2
           type: EmailFormControl
-        - name: message
-          label: Message
+        - name: address
+          label: Company Name
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Company Name
+          isRequired: false
+          width: 1/2
+          type: TextFormControl
+        - name: Question
+          label: Question
+          hideLabel: true
+          placeholder: Question
           isRequired: true
-          width: full
           type: TextareaFormControl
+          rows: 4
         - name: updatesConsent
-          label: Sign me up to recieve my words
+          label: Sign me up to recieve updates
           isRequired: false
           width: full
           type: CheckboxFormControl
