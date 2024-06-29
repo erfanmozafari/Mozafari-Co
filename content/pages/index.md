@@ -159,7 +159,7 @@ sections:
           - ؜
           - ؜
           - 1 Week Delivery
-        price: '€2000 - €4000'
+        price: '€2000 - €3000'
       - title: 'AI WhatsApp Chatbot'
         image: '/images/chatbot.gif'
         price: '€1000 - €2000'
@@ -172,7 +172,7 @@ sections:
           - 1 Week Delivery
       - title: 'Website Design & SEO'
         image: '/images/website.gif'
-        price: '€1500 - €3000'
+        price: '€2500 - €4000'
         features:
           - 'Beautiful Design'
           - 'Fast Load Time'
