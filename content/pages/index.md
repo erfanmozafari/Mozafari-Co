@@ -169,7 +169,7 @@ sections:
           - Available 24/7
           - ؜
           - ؜
-          - 1 Week Delivery
+          - 2 Week Delivery
       - title: 'Website Design & SEO'
         image: '/images/website.gif'
         price: '€2500 - €4000'
